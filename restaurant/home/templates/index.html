@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %} Our Offered Meals {%endblock%}
+{% block content %}
+{% for x in meals %}
+          <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img-top" src={{ x.strMealThumb}} alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{ x.strMeal }}</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                
+              </div> 
+            </div>
+            <br>
+          </div>
+        {% endfor %}
+{% endblock content %}
