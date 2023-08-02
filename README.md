@@ -1,6 +1,5 @@
 # restaurant-meals
-Meals presentation with details for a restaurant's product page developed in django
+A restaurant's product page with meals and relevant details developed in django.
 
-
-https://github.com/TechNadia/restaurant-meals/assets/10270625/6f797365-705c-4494-b8a7-b79cbbefd515
+https://github.com/TechNadia/restaurant-meals/assets/10270625/6cb21207-f5dd-474d-9ea8-e3da0c9b713c
 
